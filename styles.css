@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0% 2%;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 2rem;
+}
+img {
+width: 23vw;
+}
+
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.customers-info {
+  display: flex;
+  flex-direction: column;
+  align-items : center;
+  flex-basis: 25%;
+  font-family: Arial;
+  font-size: 0.8rem;
+  color: grey;
+  text-transform: capitalize;
+  margin: 10% 0%;
+}
+.details {
+  margin: 1% 2%;
+}
+#email {
+  margin: 5% 0%;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+#full-name {
+  color: #000;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: underline green;
+  text-transform: uppercase;
+  margin: 3%;
+}
