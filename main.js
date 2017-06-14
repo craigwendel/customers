@@ -23,6 +23,7 @@
       const state = json.results[0].location.state;
       const postalCode = json.results[0].location.postcode;
       const phone = json.results[0].phone;
+      const blurredPhone = json.results[0].cell;
 
       const html = `
         <div class="customers">
@@ -37,6 +38,7 @@
               ${city} ${state} ${postalCode}
             </div>
             <div class="details">${phone}</div>
+            <div class="blurred-phone">${blurredPhone}</div>
           </div>
         </div>`
 
