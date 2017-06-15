@@ -33,6 +33,7 @@ width: 23vw;
 }
 .details {
   margin: 1% 2%;
+  text-align: center;
 }
 #email {
   margin: 5% 0%;
@@ -47,7 +48,7 @@ width: 23vw;
   text-transform: uppercase;
   margin: 3%;
 }
-.blurred-phone {
+.blurred-SSN {
   margin: 5% 0%;
    color: transparent;
    text-shadow: 0 0 3px green;
