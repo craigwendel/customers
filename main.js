@@ -8,7 +8,7 @@
 
   function fetchPerson(){
 
-  fetch("https://randomuser.me/api/")
+  fetch("https://randomuser.me/api/?nat=us")
     .then( function(response){
       return response.json()
     })
@@ -35,7 +35,7 @@
             <div class="details" id ="email">${email}</div>
             <div class="details">${streetName}</div>
             <div class="details">
-              ${city} ${state} ${postalCode}
+              ${city}, ${state} ${postalCode}
             </div>
             <div class="details">${phone}</div>
             <div class="blurred-phone">${blurredPhone}</div>
